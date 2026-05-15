@@ -1,0 +1,6 @@
+name: face-recognition
+version: 1.8.0
+description: "自动人脸识别插件：在用户发送图片时，自动运行本地人脸识别，并将识别结果注入当前对话上下文。实现收到照片秒认人。"
+author: Luna
+hooks:
+  - pre_llm_call

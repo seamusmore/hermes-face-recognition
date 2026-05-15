@@ -1,0 +1,13 @@
+# 运行时数据：人脸特征库（含实际用户人脸数据，绝不提交到公开仓库）
+features.npy
+labels.json
+meta.json
+faces/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# ONNX 模型（大文件，可由用户自行下载）
+models/*.onnx
