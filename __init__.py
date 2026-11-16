@@ -13,6 +13,7 @@ import logging
 import os
 import re
 import subprocess
+import sys
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -49,7 +50,7 @@ def _run_recognition(image_path: str) -> dict:
         return {}
 
     cmd = [
-        "python3",
+        sys.executable,
         str(_FACE_RECOGNIZE_SCRIPT),
         "recognize",
         "--image",

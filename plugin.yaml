@@ -4,3 +4,6 @@ description: "自动人脸识别插件：在用户发送图片时，自动运行
 author: Luna
 hooks:
   - pre_llm_call
+pip_dependencies:
+  - 'numpy==2.5.4'
+  - 'opencv-python>=4.10'
